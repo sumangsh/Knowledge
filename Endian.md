@@ -57,9 +57,9 @@ Easier for Multiplication and Addition of multiprecision number
 
 ### General Mathematical formula for an array of bytes B of length N:
   
-\[
+$
 \text{Value} = \sum_{i=0}^{N-1} B_i \times 256^{k}
-\]
+$
 
 * **For Little Endian**
 \[ \text{Value} = B_0 \times 256^0 + B_1 \times 256^1 + ... + B_{N-1} \times 256^{N-1} \]
